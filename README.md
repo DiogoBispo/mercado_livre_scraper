@@ -1,20 +1,3 @@
-```markdown
-<h1 align="center">🛒 Mercado Livre Scraper + ETL + Dashboard</h1>
-
-<p align="center">
-  <strong>Pipeline completo de coleta, transformação, análise e visualização de preços do Mercado Livre.</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9+-blue?logo=python" />
-  <img src="https://img.shields.io/badge/BeautifulSoup-4.x-green" />
-  <img src="https://img.shields.io/badge/Pandas-2.x-yellow" />
-  <img src="https://img.shields.io/badge/Streamlit-Dashboard-red?logo=streamlit" />
-  <img src="https://img.shields.io/badge/Status-Ativo-success" />
-</p>
-
----
-
 ## 📌 Sobre o Projeto
 
 Este projeto implementa um **scraper profissional do Mercado Livre**, com:
@@ -33,10 +16,7 @@ Ideal para:
 - Estudos de Data Engineering
 - Monitores reais de preço / oferta
 
----
-
 ## 🧱 Arquitetura do Projeto
-```
 
 mercado_livre_scraper/
 │
@@ -56,9 +36,6 @@ mercado_livre_scraper/
 ├── requirements.txt
 └── README.md
 
-````
-
----
 
 ## 🚀 Como Executar o Projeto
 
@@ -89,7 +66,6 @@ data/produtos.json
 data/produtos.csv
 ```
 
----
 
 ## 📊 Executar o Dashboard
 
