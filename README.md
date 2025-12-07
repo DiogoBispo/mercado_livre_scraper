@@ -18,23 +18,17 @@ Ideal para:
 
 ## 🧱 Arquitetura do Projeto
 
-mercado_livre_scraper/
-│
-├── data/ # Saída do ETL
-│ ├── produtos.json
-│ ├── produtos.csv
-│
-├── src/
-│ ├── extractor.py # Scraper do Mercado Livre
-│ ├── transform.py # Limpeza e normalização
-│ ├── loader.py # Salvamento local
-│ └── main.py # Pipeline ETL
-│
-├── dashboard/
-│ └── dashboard.py # Dashboard Streamlit
-│
-├── requirements.txt
-└── README.md
+| Caminho                    | Descrição                          |
+|---------------------------|--------------------------------------|
+| `data/produtos.json`      | Saída em JSON                       |
+| `data/produtos.csv`       | Saída em CSV                        |
+| `src/extractor.py`        | Módulo de scraping                  |
+| `src/transform.py`        | Limpeza e normalização dos dados    |
+| `src/loader.py`           | Salvamento dos arquivos             |
+| `src/main.py`             | Pipeline completo do ETL            |
+| `dashboard/dashboard.py`  | Dashboard em Streamlit              |
+| `requirements.txt`        | Dependências do projeto             |
+
 
 
 ## 🚀 Como Executar o Projeto
