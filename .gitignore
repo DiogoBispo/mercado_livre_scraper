@@ -1,0 +1,136 @@
+# ==========================================
+# AMBIENTES VIRTUAIS
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+*.pyenv
+pip-wheel-metadata/
+
+# ==========================================
+# PYTHON CACHE / COMPILAÇÃO
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+*.whl
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# STREAMLIT
+# ==========================================
+.streamlit/
+**/.streamlit/
+
+# ==========================================
+# LOGS / TEMP / DEBUG
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.out
+debug.log
+
+# ==========================================
+# DADOS (ETL, JSON, CSV, RAW DATA)
+# ==========================================
+# Caso você queira versionar os dados, basta remover essas linhas
+data/*.csv
+data/*.json
+data/raw/
+data/intermediate/
+data/processed/
+data/archive/
+
+# ==========================================
+# NOTEBOOKS / CHECKPOINTS
+# ==========================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# ==========================================
+# CONFIGURAÇÕES SENSÍVEIS
+# ==========================================
+*.env
+.env.*
+secret.key
+credentials.json
+token.json
+*.pem
+*.key
+
+# ==========================================
+# SISTEMA OPERACIONAL
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# IDEs / EDITORES
+# ==========================================
+.vscode/
+.idea/
+*.code-workspace
+
+# ==========================================
+# DOCKER / CONTAINERS
+# ==========================================
+docker-compose.override.yml
+*.pid
+*.pid.lock
+
+# ==========================================
+# BANCOS DE DADOS / STORAGE
+# ==========================================
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# ==========================================
+# MACHINE LEARNING / MODELOS
+# ==========================================
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.ckpt
+*.pt
+*.pth
+runs/
+models/
+checkpoints/
+
+# ==========================================
+# ARQUIVOS GRANDES / UPLOADS
+# ==========================================
+uploads/
+tmp/
+cache/
+__cache__/
+
+# ==========================================
+# ZIP / COMPRESSÃO
+# ==========================================
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ==========================================
+# BACKUPS
+# ==========================================
+*.bak
+*.backup
+*.orig
+*.save
